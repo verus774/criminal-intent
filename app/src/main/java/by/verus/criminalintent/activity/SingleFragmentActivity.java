@@ -1,10 +1,12 @@
-package by.verus.criminalintent;
+package by.verus.criminalintent.activity;
 
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+
+import by.verus.criminalintent.R;
 
 public abstract class SingleFragmentActivity extends FragmentActivity {
 

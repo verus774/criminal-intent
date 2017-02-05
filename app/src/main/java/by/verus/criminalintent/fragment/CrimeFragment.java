@@ -1,4 +1,4 @@
-package by.verus.criminalintent;
+package by.verus.criminalintent.fragment;
 
 
 import android.os.Bundle;
@@ -13,6 +13,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+
+import by.verus.criminalintent.Crime;
+import by.verus.criminalintent.R;
 
 public class CrimeFragment extends Fragment {
 

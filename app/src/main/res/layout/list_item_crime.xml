@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="by.verus.criminalintent.activity.CrimeListActivity">
+
+    <TextView
+        android:id="@+id/list_item_crime_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/list_item_crime_date_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/list_item_crime_solved_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp" />
+
+</LinearLayout>

@@ -20,7 +20,7 @@
             android:name="AA_MODELS"
             android:value="by.verus.criminalintent.Crime" />
 
-        <activity android:name=".CrimeListActivity">
+        <activity android:name=".activity.CrimeListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".CrimeActivity" />
+        <activity android:name=".activity.CrimeActivity" />
 
     </application>
 
