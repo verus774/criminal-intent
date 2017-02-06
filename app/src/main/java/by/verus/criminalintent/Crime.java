@@ -81,9 +81,14 @@ public class Crime extends Model {
 
     public static void generateCrimes(int count) {
         ActiveAndroid.beginTransaction();
+        boolean solved = false;
         try {
             for (int i = 1; i <= count; i++) {
-                new Crime("Crime #" + i).save();
+                solved = !solved;
+
+                Crime crime = new Crime("Crime #" + i);
+                crime.setSolved(solved);
+                crime.save();
             }
             ActiveAndroid.setTransactionSuccessful();
         } finally {
