@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import by.verus.criminalintent.activity.CrimeActivity;
+import by.verus.criminalintent.activity.CrimePagerActivity;
 
 public class CrimeHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
@@ -37,7 +37,7 @@ public class CrimeHolder extends RecyclerView.ViewHolder implements View.OnClick
 
     @Override
     public void onClick(View v) {
-        Intent intent = CrimeActivity.newIntent(v.getContext(), mCrime.getId());
+        Intent intent = CrimePagerActivity.newIntent(v.getContext(), mCrime.getId());
         v.getContext().startActivity(intent);
     }
 }

@@ -8,7 +8,7 @@ import by.verus.criminalintent.fragment.CrimeFragment;
 
 public class CrimeActivity extends SingleFragmentActivity {
 
-    public static final String EXTRA_CRIME_ID = "crime_id";
+    private static final String EXTRA_CRIME_ID = "by.verus.criminalintent.crime_id";
 
     @Override
     protected Fragment createFragment() {
