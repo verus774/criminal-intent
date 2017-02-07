@@ -28,8 +28,17 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.CrimeActivity" />
-        <activity android:name=".activity.CrimePagerActivity"/>
+        <activity
+            android:name=".activity.CrimeActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".activity.CrimePagerActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".activity.CrimeListActivity">
+        </activity>
+
 
     </application>
 
